@@ -26,8 +26,8 @@ The performance test is too slow. Optimize the code to run faster.
 ### Phase 3: Refactor
 Refactor the `OrderProcessor` class to improve design and readability. Tests must still pass.
 
-### Phase 4: Closing thoughts (10 minutes at the end)
-Reflect on what has been done.
+### Phase 4: Adding 3 regions with their own tax rates (10 minute discussion)
+How would you change the architecture to support this?
 
 ## AI usage
 
