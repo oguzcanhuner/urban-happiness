@@ -1,5 +1,12 @@
-require 'minitest/autorun'
-require 'benchmark'
+require 'bundler/inline'
+
+gemfile(true, quiet: true) do
+  source 'https://rubygems.org'
+
+  gem 'minitest', require: 'minitest/autorun'
+  gem 'benchmark'
+end
+
 require_relative 'order_processor'
 
 class OrderProcessorTest < Minitest::Test
